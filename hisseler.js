@@ -1,6 +1,6 @@
 const fs  = require('fs') ;
 const pdf = require('pdf-parse');
-let databuffer = fs.readFileSync('C:\\\Users\\\LENOVO\\\Downloads\\\zfg_yatırım_17.03.20231.pdf')
+let databuffer = fs.readFileSync('pdf')
 pdf(databuffer).then(function(data){
 
 
